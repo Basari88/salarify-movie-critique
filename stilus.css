@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: smaller;
+}
+.cimsor {
+    background-color: purple;
+    color: white;
+    padding: 4px;
+    
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+}
+
+.Filmek {
+    float: left;
+    margin-left: 350px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.clearfix {
+    clear: both;
+}
+
+
+.img1 {
+    width: 230px;
+    height: 300px;
+}
+
+.Date {
+    background-color: purple;
+    margin: 0;
+    padding: 5px;
+}
+
+.rating {
+    text-align: right;
+    color: white;
+    background-color: purple;
+    margin: 0;
+    padding: 5px;
+}
+
+.Moviename {
+    background-color: purple;
+    margin: 0px;
+    font-size: medium;
+    padding: 15px;
+}
+.eredmeny{
+    color: white;
+}

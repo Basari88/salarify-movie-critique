@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/hozzaad.css" type="text/css">
+</head>
+<body>
+    <a href="/weblapok/mozikritika.html">Home page</a>
+    <h1 class="Cimsor">
+        Add a movie to critique!</h1>
+        <br>
+    <form action="/weblapok/mozikritika.html" method="GET">
+    <div>
+        <label for="Title">
+            Title: 
+        </label>
+        <input type="text" name="title" id="Title" placeholder="Default input">
+    </div>
+    <div>
+        <label for="Director">
+            Director
+            <input type="text" name="director" id="Director" placeholder="Default input">
+        </label>
+    </div>
+    <div>
+        <label for="Writers">
+            Writers
+            <input type="text" name="writers" id="writers" placeholder="Default input">
+        </label>
+    </div><div>
+        <label for="Review"></label>
+            Review
+            <textarea id="Review" name="Review" placeholder="Default input">
+            </textarea>
+    </div><div>
+        <label for="Year">
+            Year
+            <input type="number" name="Year" id="Year" min="1970" max="2022" placeholder="Default input">
+        </label>
+    </div><div>
+        <label for="Stars">
+            Stars
+            <input type="text" name="Stars" id="Stars" placeholder="Default input">
+        </label>
+    </div><div>
+        <label for="URL">
+            Image URL
+            <input type="url" name="URL" id="URL" placeholder="Default input">
+        </label>
+    </div>
+   
+    <button type="submit">Submit</button>
+</form>
+    </body>
+</html>

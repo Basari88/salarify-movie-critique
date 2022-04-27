@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.Cimsor {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+ .div {
+     background-color: white;
+     color: grey;
+     text-align: center;
+ }
+
+ a {
+     background-color: black;
+     color: white;
+     text-decoration: none;
+ }
+ a:hover {
+     text-decoration: none;
+ }
